@@ -1,0 +1,85 @@
+/* Estilos para las cartas */
+.content_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.card {
+    width: 80%;
+    border: solid 2px #ffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 2% 0%;
+}
+
+.description {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.description .titulo_card {
+    margin-bottom: 1%;
+    text-transform: uppercase;
+}
+
+.description .products_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.description .products_list button {
+    border: solid 2px #ffffff80;
+    border-radius: 10px;
+    padding: 4% !important;
+    white-space: nowrap;
+}
+
+.card:nth-child(2n) {
+    margin-left: 20%;
+    flex-direction: row-reverse;
+}
+
+/* Estilos para el contenido de información */
+.content_info {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.content_info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content_info p {
+    margin-bottom: 15px;
+}
+
+.contact_info {
+    margin-top: 20px;
+}
+
+.contact_info h3 {
+    margin-bottom: 10px;
+}
+
+.contact_info p {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #fff;
+}
